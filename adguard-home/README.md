@@ -6,5 +6,6 @@ If you also want to use Adguard as a DHCP server you'll need to uncomment the DH
 git clone https://github.com/JoeNorth/quadlets.git
 cd quadlets/adguard-home
 sudo cp -r . /etc/containers/systemd/
+sudo systemctl daemon-reload
 sudo systemctl start adguard
 ```
