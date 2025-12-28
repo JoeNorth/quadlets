@@ -1,0 +1,6 @@
+[Container]
+ContainerName=adguard
+Image=docker.io/adguard/adguardhome:latest
+Pod=adguard.pod
+Volume=adguard-work.volume:/opt/adguardhome/work:Z
+Volume=adguard-config.volume:/opt/adguardhome/conf:Z
