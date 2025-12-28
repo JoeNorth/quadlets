@@ -3,6 +3,8 @@ WantedBy=multi-user.target default.target
 
 [Pod]
 PodName=adguard
+# Uncomment if you're using DHCP from Adguard
+# Network=host
 # Admin interface
 PublishPort=3000:3000/tcp
 # DNS
